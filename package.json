@@ -1,0 +1,28 @@
+{
+  "name": "css-transform-style",
+  "version": "0.0.2",
+  "homepage": "http://github.com/mrmrs/css-transform-style",
+  "description": "Css module of single purpose classes for transform-style",
+  "keywords": [
+    "css",
+    "oocss",
+    "transform"
+  ],
+  "css-transforms": {
+    "type": "git",
+    "url": "http://github.com/mrmrs/css-transform-style.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrmrs/css-transform-style/issues",
+    "email": "hi@mrmrs.cc"
+  },
+  "author": {
+    "name": "Adam Morse",
+    "email": "hi@mrmrs.cc",
+    "url": "http://mrmrs.cc"
+  },
+  "contributors": [
+    { "name": "Adam Morse", "email": "hi@mrmrs.cc" }
+  ],
+  "license": "MIT"
+}
