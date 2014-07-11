@@ -23,19 +23,19 @@ or download the css on github and include in your project.
 .ts-flat {  transform-style: flat; }
 .ts-i {     transform-style: inherit; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .ts-p3d-ns {  transform-style: preserve-3d; }
   .ts-flat-ns { transform-style: flat; }
   .ts-i-ns {    transform-style: inherit; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .ts-p3d-m {   transform-style: preserve-3d; }
   .ts-flat-m {  transform-style: flat; }
   .ts-i-m {     transform-style: inherit; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .ts-p3d-l {   transform-style: preserve-3d; }
   .ts-flat-l {  transform-style: flat; }
   .ts-i-l {     transform-style: inherit; }
