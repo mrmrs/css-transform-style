@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-transform-style)
 ## File Size
 
 686B transform-style.css
-539B transform-style.min.css
+539B transform-style.min.css 
+173B minified and gzipped
 
 ## The Code
 ```
