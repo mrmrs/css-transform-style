@@ -20,7 +20,7 @@ View on [npm](https://www.npmjs.org/package/css-transform-style)
 ## File Size
 
 686B transform-style.css
-539B transform-style.min.css 
+539B transform-style.min.css
 173B minified and gzipped
 
 ## The Code
@@ -58,7 +58,7 @@ View on [npm](https://www.npmjs.org/package/css-transform-style)
 
 The MIT License (MIT)
 
-Copyright (c) 2014 @mrmrs
+Copyright (c) 2015 @mrmrs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
