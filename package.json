@@ -1,7 +1,7 @@
 {
   "name": "css-transform-style",
   "style": " transform-style.css",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "http://github.com/mrmrs/css-transform-style",
   "description": "Css module of single purpose classes for transform-style",
   "keywords": [
