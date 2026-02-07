@@ -7,9 +7,9 @@
 .ts-i {     transform-style: inherit; }
 
 @media screen and (min-width: 48em) {
-  .ts-p3d-ns {  transform-style: preserve-3d; }
-  .ts-flat-ns { transform-style: flat; }
-  .ts-i-ns {    transform-style: inherit; }
+  .ts-p3d-s {  transform-style: preserve-3d; }
+  .ts-flat-s { transform-style: flat; }
+  .ts-i-s {    transform-style: inherit; }
 }
 
 @media screen and (min-width:48em) and (max-width: 64em) {
