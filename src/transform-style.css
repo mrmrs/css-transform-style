@@ -6,19 +6,19 @@
 .ts-flat {  transform-style: flat; }
 .ts-i {     transform-style: inherit; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .ts-p3d-s {  transform-style: preserve-3d; }
   .ts-flat-s { transform-style: flat; }
   .ts-i-s {    transform-style: inherit; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .ts-p3d-m {   transform-style: preserve-3d; }
   .ts-flat-m {  transform-style: flat; }
   .ts-i-m {     transform-style: inherit; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .ts-p3d-l {   transform-style: preserve-3d; }
   .ts-flat-l {  transform-style: flat; }
   .ts-i-l {     transform-style: inherit; }
