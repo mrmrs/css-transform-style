@@ -1,38 +1,44 @@
 {
   "name": "css-transform-style",
-  "style": " transform-style.css",
-  "version": "1.0.7",
-  "homepage": "http://github.com/mrmrs/css-transform-style",
-  "description": "Css module of single purpose classes for transform-style",
+  "version": "2.0.0",
+  "description": "Functional CSS for transform-style",
+  "style": "dist/transform-style.css",
+  "main": "dist/transform-style.css",
+  "exports": {
+    ".": "./dist/transform-style.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "transform"
+    "transform-style",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-transforms": {
+  "homepage": "https://github.com/mrmrs/css-transform-style",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-transform-style.git"
+    "url": "https://github.com/mrmrs/css-transform-style.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-transform-style/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-transform-style/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
