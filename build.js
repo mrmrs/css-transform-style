@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { transform } = require('lightningcss');
 
-const srcFile = path.join(__dirname, 'src', 'css-transform-style.css');
+const srcFile = path.join(__dirname, 'src', 'transform-style.css');
 const distDir = path.join(__dirname, 'dist');
 
 // Read source
@@ -15,22 +15,22 @@ if (!fs.existsSync(distDir)) {
 
 // Unminified — just normalize formatting
 const { code: unminified } = transform({
-  filename: 'css-transform-style.css',
+  filename: 'transform-style.css',
   code: Buffer.from(source),
   minify: false,
 });
 
-fs.writeFileSync(path.join(distDir, 'css-transform-style.css'), unminified);
+fs.writeFileSync(path.join(distDir, 'transform-style.css'), unminified);
 
 // Minified
 const { code: minified } = transform({
-  filename: 'css-transform-style.css',
+  filename: 'transform-style.css',
   code: Buffer.from(source),
   minify: true,
 });
 
-fs.writeFileSync(path.join(distDir, 'css-transform-style.min.css'), minified);
+fs.writeFileSync(path.join(distDir, 'transform-style.min.css'), minified);
 
 console.log('Build complete:');
-console.log(`  dist/css-transform-style.css     ${unminified.length} bytes`);
-console.log(`  dist/css-transform-style.min.css ${minified.length} bytes`);
+console.log(`  dist/transform-style.css     ${unminified.length} bytes`);
+console.log(`  dist/transform-style.min.css ${minified.length} bytes`);
